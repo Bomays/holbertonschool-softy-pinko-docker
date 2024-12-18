@@ -66,7 +66,6 @@ $~$
 $~$
 
 >[!INFO]
->
 > What is Round Robin load balancing? 
 >      
 >       Round Robin load balancingis a method of distributing traffic across
