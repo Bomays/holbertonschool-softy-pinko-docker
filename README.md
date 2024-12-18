@@ -43,21 +43,24 @@ That server acts as a reverse proxy server, which routes traffic to either the A
 or the front-end static-content server ; it also acts as a load balancer to balance traffic between the two API servers. 
 When traffic comes in, the server will determine which service it needs to go to
 (either the front-end static-content server or the API server) and:
-
-   (-) If the request is to be routed to the front-end static-content server,
-   it will do so and any static content that is returned from the front-end static-content server
-   to the proxy server will then be sent to the client. The client isn’t directly communicating
-   with the front-end static-content server.
-
-    (-) If the request is to be routed to the API server, then it will first go through
-    a load-balancing algorithm to determine which API server to send the request to.
-    We will be using the basic Round Robin load-balancing algorithm for our site.
-    Once the request is routed to an API server and the response is sent back to the proxy server,
-    it will then be sent to the client.
-    The client isn’t directly communicating with either of the API servers.
+$~$
 
 ```
-        What is Round Robin load balancing? 
+- If the request is to be routed to the front-end static-content server,
+it will do so and any static content that is returned from the front-end static-content server
+to the proxy server will then be sent to the client. The client isn’t directly communicating
+with the front-end static-content server.
+
+- If the request is to be routed to the API server, then it will first go through
+a load-balancing algorithm to determine which API server to send the request to.
+We will be using the basic Round Robin load-balancing algorithm for our site.
+Once the request is routed to an API server and the response is sent back to the proxy server,
+it will then be sent to the client.
+The client isn’t directly communicating with either of the API servers.
+
+```
+
+#### What is Round Robin load balancing? 
         
         Round Robin load balancingis a method of distributing traffic across
         multiple servers or nodes in a network. In this approach, the load balancer assigns
@@ -70,6 +73,6 @@ When traffic comes in, the server will determine which service it needs to go to
         Round Robin load balancing is a simple and effective way to distribute traffic,
         but it may not be suitable for all applications, particularly those with varying
         workload patterns or resource requirements.
-        
-        For our learning purposes in this project, it is a sufficient algorithm to implement for our load-balancing needs.
-```
+
+        For our learning purposes in this project, it is a sufficient algorithm to implement
+        for our load-balancing needs.
