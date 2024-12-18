@@ -80,3 +80,4 @@ $~$
 > This ensures that each server receives an equal share of the traffic and can prevent any one server from becoming overwhelmed with requests. Round Robin load balancing is a simple and effective way to distribute traffic, but it may not be suitable for all applications, particularly those with varying workload patterns or resource requirements.  
 
 For our learning purposes in this project, it is a sufficient algorithm to implement for our load-balancing needs.</P>
+</div>
