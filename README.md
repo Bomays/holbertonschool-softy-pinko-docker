@@ -12,9 +12,7 @@ $~$
 <img src="https://github.com/Bomays/holbertonschool-softy-pinko-docker/blob/9523774adc62ddc772bf3a263a27cdfbc8a5dce1/logo/nginx.svg" alt="NGINX logo" width="500"/>
 </p>
 
-
 ## Context
-
 
 Docker is a platform that allows you to containerize your applications,
 meaning that you can package them into portable, self-contained environments
@@ -34,16 +32,13 @@ that utilizes a reverse proxy, a load balancer, two application servers, and one
 
 Let’s consider the following design:
 
-
-
 $~$
 
 ## High-level Design
 
-
 In this design, there is a single server that acts as the entry point for your application.
 That server acts as a reverse proxy server, which routes traffic to either the API servers
-or the front-end static-content server ; it also acts as a load balancer to balance traffic between the two API servers. 
+or the front-end static-content server ; it also acts as a load balancer to balance traffic between the two API servers.
 When traffic comes in, the server will determine which service it needs to go to
 (either the front-end static-content server or the API server) and:
 $~$
@@ -68,22 +63,22 @@ $~$
 $~$
 
 > 🟦 **INFO**
-> 
+>
 > **What is Round Robin load balancing?**
-> 
-> Round Robin load balancing is a method of distributing traffic across multiple servers or nodes in a network. 
+>
+> Round Robin load balancing is a method of distributing traffic across multiple servers or nodes in a network.
 > In this approach, the load balancer assigns requests to each server in a rotating manner, meaning that each server takes turns serving the requests.
-> 
+>
 > **Example:**
+>
 > - The first request will be sent to server A.
 > - The second to server B.
 > - The third to server C.
 > - The fourth to A, and so on.
-> 
-> This ensures that each server receives an equal share of the traffic and prevents any one server from being overwhelmed.  
-> 
+>
+> This ensures that each server receives an equal share of the traffic and prevents any one server from being overwhelmed.
+>
 > For our learning purposes in this project, it is a sufficient algorithm to implement for our load-balancing needs.
-
 
 ## About NGINX in this Docker project
 
