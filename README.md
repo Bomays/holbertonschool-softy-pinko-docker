@@ -65,19 +65,19 @@ $~$
 
 $~$
 
->**INFO**
-<div style="background-color: #d9edf7; border: 1px solid #bce8f1; padding: 10px; border-radius: 4px;">
-<strong>What is Round Robin load balancing?</strong>
-  
-<p>Round Robin load balancing is a method of distributing traffic across multiple servers or nodes in a network. In this approach, the load balancer assigns requests to each server in a rotating manner, meaning that each server takes turns serving the requests.  
- 
-> For example, if there are three servers A, B, and C:  
-> - The first request will be sent to server A.  
-> - The second to server B.  
-> - The third to server C.  
-> - The fourth to A, the fifth to B, and so on, as the cycle repeats.  
->  
-> This ensures that each server receives an equal share of the traffic and can prevent any one server from becoming overwhelmed with requests. Round Robin load balancing is a simple and effective way to distribute traffic, but it may not be suitable for all applications, particularly those with varying workload patterns or resource requirements.  
-
-For our learning purposes in this project, it is a sufficient algorithm to implement for our load-balancing needs.</P>
-</div>
+> 🟦 **INFO**
+> 
+> **What is Round Robin load balancing?**
+> 
+> Round Robin load balancing is a method of distributing traffic across multiple servers or nodes in a network. 
+> In this approach, the load balancer assigns requests to each server in a rotating manner, meaning that each server takes turns serving the requests.
+> 
+> **Example:**
+> - The first request will be sent to server A.
+> - The second to server B.
+> - The third to server C.
+> - The fourth to A, and so on.
+> 
+> This ensures that each server receives an equal share of the traffic and prevents any one server from being overwhelmed.  
+> 
+> For our learning purposes in this project, it is a sufficient algorithm to implement for our load-balancing needs.
