@@ -3,13 +3,13 @@
 $~$
 
 <p align="center">
-<img src="https://github.com/Bomays/holbertonschool-softy-pinko-docker/blob/d888abfc28c6ef6b691c467990f10462a0c633bb/logo/docker-logo-blue.png" alt="Docker" width="700"/>
+<img src="https://github.com/Bomays/holbertonschool-softy-pinko-docker/blob/d888abfc28c6ef6b691c467990f10462a0c633bb/logo/docker-logo-blue.png" alt="Docker Logo" width="700"/>
 </p>
 
 $~$
 
 <p align="center">
-![Nginx Logo](./logo/nginx.svg)
+<img src="https://github.com/Bomays/holbertonschool-softy-pinko-docker/blob/9523774adc62ddc772bf3a263a27cdfbc8a5dce1/logo/nginx.svg" alt="NGINX logo" width="700"/>
 </p>
 
 
