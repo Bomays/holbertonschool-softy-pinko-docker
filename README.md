@@ -33,6 +33,7 @@ that utilizes a reverse proxy, a load balancer, two application servers, and one
 Let’s consider the following design:
 
 
+
 $~$
 
 ## High-level Design
@@ -60,19 +61,25 @@ The client isn’t directly communicating with either of the API servers.
 
 ```
 
-#### What is Round Robin load balancing? 
-        
-        Round Robin load balancingis a method of distributing traffic across
-        multiple servers or nodes in a network. In this approach, the load balancer assigns
-        requests to each server in a rotating manner, meaning that each server takes
-        turns serving the requests. For example, if there are three servers A, B, and C,
-        the first request will be sent to server A, the second to server B, the third to server C,
-        the fourth to A, the fifth to B, and so on, while the cycle repeats.
-        This ensures that each server receives an equal share of the traffic,
-        and can prevent any one server from becoming overwhelmed with requests.
-        Round Robin load balancing is a simple and effective way to distribute traffic,
-        but it may not be suitable for all applications, particularly those with varying
-        workload patterns or resource requirements.
+$~$
 
-        For our learning purposes in this project, it is a sufficient algorithm to implement
-        for our load-balancing needs.
+$~$
+
+>[!INFO]
+>
+> What is Round Robin load balancing? 
+>      
+>       Round Robin load balancingis a method of distributing traffic across
+>       multiple servers or nodes in a network. In this approach, the load balancer assigns
+>       requests to each server in a rotating manner, meaning that each server takes
+>       turns serving the requests. For example, if there are three servers A, B, and C,
+>       the first request will be sent to server A, the second to server B, the third to server C,
+>       the fourth to A, the fifth to B, and so on, while the cycle repeats.
+>       This ensures that each server receives an equal share of the traffic,
+>       and can prevent any one server from becoming overwhelmed with requests.
+>       Round Robin load balancing is a simple and effective way to distribute traffic,
+>       but it may not be suitable for all applications, particularly those with varying
+>       workload patterns or resource requirements.
+>
+>        For our learning purposes in this project, it is a sufficient algorithm to implement
+>        for our load-balancing needs.
