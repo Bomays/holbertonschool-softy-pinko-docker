@@ -82,18 +82,21 @@ $~$
 
 ## About NGINX in this Docker project
 
-    1.Reverse Proxy:
+    1.Reverse Proxy
 
 Nginx is commonly used as a reverse proxy. This means it receives requests from users and forwards them to other services or Docker containers (for example, an application server or a database server). In a Docker environment, Nginx can be configured to redirect requests to specific containers running your web application, which helps manage traffic flow.
+$~$
 
-    2.Load Balancer:
+    2.Load Balancer
 
 Nginx can also act as a load balancer. When used with Docker, it can distribute incoming traffic across multiple instances of an application container (for example, multiple instances of a Node.js or Python application), allowing for better handling of traffic spikes and ensuring high availability of your site.
+$~$
 
-    3.SSL Management (HTTPS):
+    3.SSL Management (HTTPS)
 
 Nginx is often used to manage SSL (HTTPS certificates), enabling secure communication between the user and the server. When deploying a site with Docker, Nginx can be configured to handle SSL termination, meaning it decrypts the HTTPS requests and forwards them internally as HTTP to your application's Docker container.
+$~$
 
-    4.Static Content Delivery:
+    4.Static Content Delivery
 
 Nginx is also very efficient at serving static content such as images, JavaScript files, CSS files, etc. In a Docker environment, Nginx can be configured to serve these files directly, reducing the load on application containers that no longer need to handle these requests.
