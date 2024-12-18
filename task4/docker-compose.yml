@@ -1,0 +1,22 @@
+services:
+  backend:
+    build:
+      context: ./back-end
+      dockerfile: Dockerfile
+    image: softy-pinko-back-end
+    ports:
+      - "5252:5252"
+
+  frontend:
+    build:
+      context: ./front-end
+      dockerfile: Dockerfile
+    image: softy-pinko-front-end
+    ports:
+      - "9000:9000"
+    depends_on:
+      - backend
+
+# Docker Compose version v2.30.3-desktop.1
+# docker-compose build
+# docker-compose up

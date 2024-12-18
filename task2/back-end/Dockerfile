@@ -8,5 +8,5 @@ COPY api.py /app/
 EXPOSE 5252
 CMD ["python3", "api.py"]
 
-# docker build -f ./Dockerfile -t softy-pinko:task1 .
-# docker run -p 5252:5252 -it --rm --name softy-pinko-task1 softy-pinko:task1
+# docker build -f ./front-end/Dockerfile -t softy-pinko-front-end:task2 ./front-end
+# docker run -p 9000:9000 -it --rm --name softy-pinko-front-end-task2 softy-pinko-front-end:task2
