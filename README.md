@@ -9,7 +9,7 @@ $~$
 $~$
 
 <p align="center">
-<img src="https://github.com/Bomays/holbertonschool-softy-pinko-docker/blob/9523774adc62ddc772bf3a263a27cdfbc8a5dce1/logo/nginx.svg" alt="NGINX logo" width="700"/>
+<img src="https://github.com/Bomays/holbertonschool-softy-pinko-docker/blob/9523774adc62ddc772bf3a263a27cdfbc8a5dce1/logo/nginx.svg" alt="NGINX logo" width="500"/>
 </p>
 
 
