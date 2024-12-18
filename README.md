@@ -3,7 +3,7 @@
 $~$
 
 <p align="center">
-<img src="https://github.com/Bomays/holbertonschool-softy-pinko-docker/blob/d888abfc28c6ef6b691c467990f10462a0c633bb/logo/docker-logo-blue.png" alt="Docker" width="100"/>
+<img src="https://github.com/Bomays/holbertonschool-softy-pinko-docker/blob/d888abfc28c6ef6b691c467990f10462a0c633bb/logo/docker-logo-blue.png" alt="Docker" width="auto"/>
 </p>
 
 
